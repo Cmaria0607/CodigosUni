@@ -13,15 +13,17 @@
     height: 50vh;
     display:flex ;
    margin: 0 auto;
-    padding: 1em;
+    padding: 0 0 20px 0;
     width: 400px;
     border: 1px solid #9d56fa;
     border-radius: 1em; 
-    flex-direction: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     
    
 }
