@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+   
+   
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+.header {
+    background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 191, 0.486),
+    rgb(250, 192, 240)
+  ), url("images/bg.avif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.menu {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #9b0487;
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono{
+    width: 25px;
+    
+}
+
+.menu label{
+    cursor: pointer;
+    display: none ;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #fffdfc;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px;
+    background-color: #9b0487;
+    color: #fffdfc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ffb4f5;
+}
+
+.belleza {
+    padding: 100px 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(252, 94, 212, 0.589),
+        rgb(250, 192, 240)
+      ), url("images/fondo.jpg");
+      background-size: 100%;
+    position: relative;
+}
+
+.belleza-content {
+    
+    text-align: center;
+}
+
+.belleza-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #47023e;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.consejos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.consejo1 p{
+    color: #69065a;
+}
+
+.consejo1{
+    padding: 0 25px;
+}
+
+.consejo1 img {
+    width: 200px;
+    
+}
+
+.consejos1 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.consejo1 h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.servicios {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(250, 192, 240),
+        rgba(255, 0, 212, 0.76)
+      ), url("images/blog.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      padding: 100px 0;
+}
+
+.servicios-content{
+    text-align: center;
+}
+
+.servicios-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.servicios-content h3 {
+    font-size: 20px;
+    line-height: 70px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.servicios-content p{
+    font-size: 16px;
+    color: #fffdfc;
+    margin-bottom: 50px;
+    padding: 0 100px;
+
+}
+
+.servicioss{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.servicios-1 {
+    padding: 0 100px;
+}
+
+.servicios-1 img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.servicios-1 h3 {
+    color: #fffdfc;
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+    
+}
+
+.general h2 {
+    color: #fde8fa;
+    
+}
+
+.general p {
+    color: #fde8fa;
+    
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+     background:rgb(255, 79, 226);
+}
+
+.general-2{
+    background-image: url(images/depilaciones.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(images/pestañas.webp) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500000%;
+}
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #9b0487;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+    color: #ce04b3;
+    margin: 25px 0 45px 0;
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+   
+}
+
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1{
+    padding: 15px 55px;
+}
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3{
+    font-size: 25px;
+    color: #940581;
+}
+
+.footer{
+    padding: 5% 0;
+    background-color: #ff06de;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color:#9b0487;
+    margin-bottom: 5px;
+}
+
+.link a{
+    font-size: 16px;
+    color: #f7c7f0;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media (max-width:991px){
+
+   
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ff37e4bb;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-content p{
+        padding: 0;
+
+    }
+
+    .belleza{
+        padding: 30px;
+    }
+
+    .belleza-content h2{
+        padding: 0;
+    }
+
+    .txt-p{
+        padding: 0;
+    }
+
+    .consejos{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .consejo1 img{
+        display: none;
+    }
+    .servicios{
+        padding: 30px;
+    }
+
+    .servicioss{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .servicios-1{
+        margin-bottom: 25px;
+    }
+
+    .general{
+        flex-direction: column;
+    }
+
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3{
+        display: none;
+    }
+
+    .blog{
+        padding: 30px;
+    }
+
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
