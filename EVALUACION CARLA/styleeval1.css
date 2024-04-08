@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+   
+}
+
+
+.container{
+    max-width: 100%;
+}
+.header {
+    background-image: linear-gradient(
+    to bottom,
+    rgba(94, 121, 146, 0.151),
+    rgba(94, 121, 216, 0.438)
+  ), url("images/bg-masthead.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+
+
+    }
+   
+    .logo{
+        color: #2b2929c5;
+        font-size: 14px;
+        font-weight: 550;
+        
+    }
+    
+    .menu .navbar ul li {
+        position: relative;
+        float: left;
+    }
+    
+    .menu .navbar ul li button{
+    
+        color: white;
+        background-color: rgb(68, 112, 255);
+        border: 15;
+        border-color: #ffffff;
+        margin: 5%;
+        border-radius: 12%;
+         padding: 15px;
+}
+    
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px;
+    padding-left: 50%;
+    color: #ffffff;
+}
+
+.direccion input {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border: 15;
+    border-color: #ffffff;
+    margin: 5%;
+     padding: 15px;
+     width: 20%;
+     padding: 10px 20px;
+     outline: none;
+     font-weight: 10;
+     font-size: 12px;
+     letter-spacing: 1px;
+     
+     border-radius: 8px;
+    
+}
+.header .enviar button{
+
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    border: 15;
+    border-color:transparent;
+    background-color: rgb(68, 112, 255);
+
+    margin: 5%;
+     padding: 15px;
+     width: 5%;
+     padding: 10px ;
+     outline: none;
+     font-weight: 10;
+     font-size: 12px;
+     letter-spacing: 1px;
+     border-radius: 8px;
+
+    
+}
+
+.servicios {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(250, 192, 240),
+        rgba(255, 0, 212, 0.76)
+      ), url("images/blog.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      padding: 100px 0;
+}
+
+.servicios-content{
+    text-align: center;
+}
+
+.servicios-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.servicios-content h3 {
+    font-size: 20px;
+    line-height: 70px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.servicios-content p{
+    font-size: 16px;
+    color: #fffdfc;
+    margin-bottom: 50px;
+    padding: 0 100px;
+
+}
+
+.infogrup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 100px;
+}
+
+.infogrup{
+    padding: 0 px;
+}
+
+.infogrup img{
+    width: 100px;
+    margin-bottom: 60px;
+}
+
+.infogrup h3 {
+    color: #000000;
+    font-size: 40px;
+    
+}
+
+.general {
+    display: flex;
+    
+}
+
+.general h2 {
+    color: #000000;
+    
+}
+
+.general p {
+    color: #000000;
+    
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+     background:rgb(255, 255, 255);
+     height: 400px;
+}
+
+.general-2{
+    background-image: url(images/bg-showcase-1.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(images/bg-showcase-2.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5000%;
+    
+}
+
+   /*
+img {
+    width: 400px;
+    height: 400px;
+  }*/
+  
